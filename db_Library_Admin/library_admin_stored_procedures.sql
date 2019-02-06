@@ -3,7 +3,7 @@ The following SQL creates and executes 7 basic stored procedures that
 gather certain data. For best results, execute each one individually by 
 finding the commented 'EXECUTE STORED PROCEDURE' flag and highlighting 
 the entire code below it. Stop at the next commented numbered question.
-=======================================================================*/
+========================================================================*/
 
 
 
@@ -13,7 +13,7 @@ the entire code below it. Stop at the next commented numbered question.
 /*=======================
 EXECUTE STORED PROCEDURE 
 =========================*/
-USE Library_Admin
+USE [Library_Admin]
 GO
 
 CREATE PROC sp_FindCopyByBranch 

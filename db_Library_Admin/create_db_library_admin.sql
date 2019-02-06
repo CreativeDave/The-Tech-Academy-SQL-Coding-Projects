@@ -1,10 +1,15 @@
-﻿USE [master]
+﻿/*==================================================================================================================
+The following SQL creates a library management database, then populates it with data. It can be run in its entirety.
+====================================================================================================================*/  
+
+
+USE [master]
 GO
 
-CREATE DATABASE Library_Admin
+CREATE DATABASE [Library_Admin]
 GO
 
-USE Library_Admin
+USE [Library_Admin]
 
 CREATE TABLE Library_Branch (
 	BranchID INT IDENTITY (100,1) NOT NULL,
@@ -317,7 +322,3 @@ INSERT INTO Book_Loans
 ;
 
 GO
-
-
-
-
